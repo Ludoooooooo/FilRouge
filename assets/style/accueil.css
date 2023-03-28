@@ -1,0 +1,108 @@
+@font-face {
+    font-family:"Art" ;
+    src: url("../font/Art-nuvo.ttf"); 
+}
+
+*{
+	user-select: none;
+}
+body {
+	box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+	overflow-x: hidden;
+}
+
+
+#header{
+	display: flex;
+	color : white;
+	justify-content: space-evenly;
+	font-family: Art;
+	font-size : 35px;
+	text-shadow: 4px 4px black;
+	transition: all 300ms ease-in-out;
+	cursor: pointer;
+}
+
+#header:hover{
+	transform: translate(0,-10px);
+	text-shadow: 4px 4px rgb(0, 255, 0);
+	color : rgb(255, 0, 242);
+}
+#Paypal{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#bouton1{
+	font-family: Art;
+	color: white;
+	text-decoration: none;
+	font-size: 2em;
+	text-shadow: 3px 3px black;
+	background: linear-gradient(225deg, #c625d0 0%, #26caf8 50%, #27d86c 100%);
+	box-shadow: 0px 0px 0px 00e6ee;
+	transition: all 300ms ease-in-out;
+}
+
+
+a{
+	width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+	border-radius: 10px;
+	border-color: black;
+	border-style: double;
+	border-width: 0.2em;
+}
+
+#button{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bouton{
+	background: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
+	
+}
+
+#bouton1:hover{
+	box-shadow: 0px 5px 20px #00e6ee;
+	transform: translate(0,-6px);
+}
+
+
+
+#Gif{
+	display: flex;
+	justify-content: space-evenly;
+	height: 150px;
+}
+
+body{
+	
+	height: 100vh;
+	background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);;
+	background-size: 400% 400%;
+	
+	animation: animate 7.5s ease-in-out infinite;
+
+	
+  }
+  @keyframes animate{
+	0%{
+	  background-position: 0 50%;
+	}
+	50%{
+	  background-position: 100% 50%;
+	}
+	100%{
+	  background-position: 0 50%;
+	}
+  }
+
+

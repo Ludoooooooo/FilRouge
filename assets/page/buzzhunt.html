@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/Dh-v2.css">
+    <title>Buzzhunt</title>
+    <link rel="shortcut icon" type="image/jpg" href="../image/site/favicon.ico"/> <!--on change l'icone de la page pour faire jolie-->
+</head>
+
+<body>
+    <div id="zone-jeux">
+        <div id="zone-curseur">
+            <div id="buzz">
+                <img src="../image/site/Buzz2.gif">
+            </div>
+        </div>
+
+        <div id="zone-afficheur">
+            <button id="start-game"onclick="window.location.href='../../index.html'">Retour au menu</button> <!-- Bouton nouvelle partie -->
+            <div class="container-afficheur">
+                <img src="../image/site/afficheur.png", draggable="false">
+                <div class="text-afficheur">
+                    <span class="left">Temps : </span><span id="time">02:00</span>
+                </div>
+            </div>
+
+            <div class="container-afficheur">
+                <img src="../image/site/afficheur.png", draggable="false">
+                <div class="text-afficheur">
+                    <span class="left">Buzz l'Eclair : </span><span class="right" id="points_canard">0</span>
+                </div>
+            </div>
+
+            <div class="container-afficheur">
+                <img src="../image/site/afficheur.png", draggable="false"> 
+                <div class="text-afficheur">
+                    <span class="left">Chasseur : </span><span class="right" id="points_chasseur">0</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="../js/Dh.js"></script> 
+</html>

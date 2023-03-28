@@ -1,0 +1,80 @@
+body{
+	overflow: hidden;
+}
+
+@font-face {
+    font-family:"Calculator" ;
+    src: url("../font/Calculator.ttf");
+}
+
+#zone-jeux{
+    position: fixed;
+    top : 0;
+    left : 0;
+	width: 100vw;
+	height: 100vh;
+	overflow : hidden;
+	user-select : none;
+}
+
+#zone-curseur{
+	height : 80%;
+	width:  100%;
+	background-image : url(../image/site/ciel.png);
+    cursor : url(../image/site/Curseur1.png) 15 15, auto;
+	user-select : none;
+}
+
+
+#zone-afficheur{
+	height : 20%;
+	width : 100%;
+	display:  flex;
+	justify-content: space-between;
+    background-image : url(../image/site/sol.png);
+    background-size: cover;
+	user-select : none;
+}
+
+#buzz{
+	width : 10%;
+	height : 10%;
+	position : absolute;
+	top : 50%;
+	left : 50%;
+}
+
+#buzz img{
+	max-width : 100%;
+	max-height : 100%;
+}
+
+.container-afficheur{
+	width : 20%;
+	height : 90%;
+	position:  relative;
+}
+
+.text-afficheur{
+	position:  absolute;
+	color:#34fefa;
+    font-family:"Calculator" ;
+    top:  38%;
+    left:  13%;
+}
+
+.container-afficheur img{
+	max-width : 100%;
+	max-height : 100%;
+}
+
+#start-game{
+	height : fit-content;
+	align-self: center;
+	background-color : #01c0ff;
+	left : 20px;
+	bottom : 20px;
+}
+.start-game:hover{
+    background-color : #01E8FF;
+}

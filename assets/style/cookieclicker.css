@@ -1,0 +1,153 @@
+@font-face {
+    font-family:"Bouncy" ;
+    src: url("../font/Bouncy.otf"); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+body{
+    background-color: #0a0321;
+    background-image: url(../image/site/cookiebg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cookie{
+    cursor: pointer;
+}
+.compteur{
+    font-size: 100px;
+    font-family: Bouncy;
+    display: flex;
+    justify-content: center;
+}
+
+#container p{
+    padding-bottom: 50px;
+}
+
+#container .cookie{
+    padding-bottom: 100px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 60px;
+    font-family: Bouncy;
+}
+
+.mamie{
+    height: 100px;
+    cursor: pointer;
+}
+
+.rouleau{
+    height: 100px;
+    cursor: pointer;
+}
+
+.four{
+    height: 100px;
+    cursor: pointer;
+}
+
+.usine{
+    height : 100px;
+    cursor: pointer;
+}
+
+.doigt{
+    margin-top : 20px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.tour{
+    margin-top: 20px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.vaisseau{
+    margin-top: 20px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.alchimie{
+    margin-top: 20px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.bank{
+    margin-top: 20px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.mamie2{
+    margin-top: 20px;
+    height: 80px;
+    cursor: pointer;
+}
+
+span{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.prix{
+    display: flex;
+    align-items: center;
+}
+
+
+
+#containerboutique{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 60px;
+    font-family: Bouncy;
+    background: #ffffff62;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+
+#onverrabien{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 60px;
+    font-family: Bouncy;
+    background: #ffffff62;
+}
+
+.home a{
+    font-family: Bouncy;
+    font-size: 60px;
+    color: rgb(0, 255, 102);
+    text-shadow: 2px 2px 2px rgb(231, 0, 248);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
